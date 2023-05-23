@@ -15,7 +15,7 @@ class Result {
         }
 
         int maxLength = 0;
-
+        // examine to all pairs of components.
         for (char c1: mySet) {
             for (char c2: mySet) {
                 if (c1 != c2) {
