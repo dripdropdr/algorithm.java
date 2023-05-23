@@ -12,6 +12,7 @@ class Result {
         List<Integer> res = new ArrayList<>();
         int min = 99999999;
         for (int i=0; i<arr.size()-1; i++){
+            // consider absolute number.
             int dif = Math.abs(arr.get(i) - arr.get(i+1));
             if (dif < min){
                 min = dif;
