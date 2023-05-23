@@ -8,7 +8,8 @@ class Result {
      *  1. STRING s
      *  2. INTEGER_ARRAY queries
      */
-
+    
+    // The solution is time out in 2 case, I will complement it later.
     public static List<String> weightedUniformStrings(String s, List<Integer> queries) {
 
         List<String> res = new ArrayList<>();
